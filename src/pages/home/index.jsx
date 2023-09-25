@@ -13,7 +13,13 @@ import {
 export function Home() {
   return (
     <HomeContent>
-      <HomePresentationContainer>
+     
+
+      <HomeMetropolisSmogContainer>
+        <HomeMetropolisSmogImage src="/poluicao.png" alt="Cidade poluída" />
+
+        <HomeMetropolisSmogAboutContainer>
+        <HomePresentationContainer>
         <HomePresentationTitle>Sobre o que falamos?</HomePresentationTitle>
 
         <HomePresentationDescription>
@@ -23,11 +29,7 @@ export function Home() {
           poluição ambiental, explorando suas causas, consequências e soluções.
         </HomePresentationDescription>
       </HomePresentationContainer>
-
-      <HomeMetropolisSmogContainer>
-        <HomeMetropolisSmogImage src="/poluicao.png" alt="Cidade poluída" />
-
-        <HomeMetropolisSmogAboutContainer>
+      
           <HomeMetropolisSmogAboutTitle>
             Como funciona nosso sistema?
           </HomeMetropolisSmogAboutTitle>

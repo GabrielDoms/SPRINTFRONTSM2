@@ -8,7 +8,7 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
 
-  background: #1e40af;
+  background: #D2691E;
 
   color: #ffffff;
 

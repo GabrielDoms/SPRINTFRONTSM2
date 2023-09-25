@@ -51,6 +51,8 @@ export const HomeMetropolisSmogImage = styled.img`
 
   object-fit: cover;
 
+  border: 1px solid black;
+
   @media screen and (max-width: 768px) {
     width: 100%;
   }
@@ -63,11 +65,10 @@ export const HomeMetropolisSmogAboutContainer = styled.div`
   align-items: flex-start;
   justify-content: center;
 
-  height: 46rem;
 
   width: calc(100% - 28rem);
 
-  row-gap: 1.5rem;
+  row-gap: 3.5rem;
 
   @media screen and (max-width: 768px) {
     width: 100%;

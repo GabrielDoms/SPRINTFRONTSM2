@@ -35,7 +35,7 @@ export function Header() {
     <HeaderContainer>
       <LogoContainer>
         <Logo />
-        <WorkTitle>Solving o2</WorkTitle>
+        <WorkTitle>Solving O2</WorkTitle>
       </LogoContainer>
 
       <HeaderNavigation>

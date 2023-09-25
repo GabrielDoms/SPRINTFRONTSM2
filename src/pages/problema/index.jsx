@@ -1,3 +1,4 @@
+import { HomeContent, HomeMetropolisSmogAboutContainer, HomeMetropolisSmogContainer, HomeMetropolisSmogImage } from "../home/styles";
 import {
   ProblemContent,
   ProblemTitle,
@@ -7,12 +8,12 @@ import {
 
 export function Problem() {
   return (
-    <ProblemContent>
-      <ProblemImage
-        src="/tratamento-depurador-gases-industriais.jpg"
-        alt="Poluição"
-      />
+    <HomeContent>
 
+    <HomeMetropolisSmogContainer>
+      <HomeMetropolisSmogImage  src="/tratamento-depurador-gases-industriais.jpg" alt="Cidade poluída" />
+
+      <HomeMetropolisSmogAboutContainer>
       <ProblemTitle>Problema</ProblemTitle>
       <ProblemDescription>
         Poluição em SP: No mês de maio de 2022, a poluição do ar na cidade de
@@ -31,6 +32,9 @@ export function Problem() {
         site, porém possuem difícil entendimento e grande parte da população não
         tem conhecimento dele.
       </ProblemDescription>
-    </ProblemContent>
+      </HomeMetropolisSmogAboutContainer>
+    </HomeMetropolisSmogContainer>
+  </HomeContent>
+    
   );
 }
